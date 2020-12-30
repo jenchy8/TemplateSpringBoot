@@ -1,6 +1,5 @@
-package com.devsight.templatespringboot.dao;
+package com.devsight.templatespringboot.featurename.dao;
 
-import com.devsight.templatespringboot.featurename.dao.TemplateDao;
 import com.devsight.templatespringboot.featurename.model.TemplateEntity;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,6 +1,5 @@
-package com.devsight.templatespringboot.controller;
+package com.devsight.templatespringboot.featurename.controller;
 
-import com.devsight.templatespringboot.featurename.controller.TemplateController;
 import com.devsight.templatespringboot.featurename.service.TemplateService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
