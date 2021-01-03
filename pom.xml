@@ -19,7 +19,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
-		<lombok.version>1.18.10</lombok.version>
+		<lombok.version>1.18.16</lombok.version>
 		<mockito-all.version>1.10.19</mockito-all.version>
 		<hamcrest-junit.version>2.0.0.0</hamcrest-junit.version>
 		<junit-vintage-engine.version>5.7.0</junit-vintage-engine.version>
