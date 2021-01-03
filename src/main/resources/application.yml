@@ -1,0 +1,11 @@
+server.servlet.context-path: /templateservice
+management.endpoints.web:
+  base-path: /manage
+  exposure.include: "*"
+
+appinfo:
+  title: Template Spring Boot Service
+  description: Skeleton service using Spring Boot
+
+server:
+  port: 8081

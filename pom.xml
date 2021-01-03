@@ -6,7 +6,7 @@
 	<groupId>com.devsight</groupId>
 	<artifactId>templatespringboot</artifactId>
 	<version>1.1.0-SNAPSHOT</version>
-	<name>templatespringboot</name>
+	<name>Template Spring Boot</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -18,6 +18,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
 		<lombok.version>1.18.10</lombok.version>
 		<mockito-all.version>1.10.19</mockito-all.version>
 		<hamcrest-junit.version>2.0.0.0</hamcrest-junit.version>
@@ -34,6 +35,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<!-- Swagger -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>${springfox-boot-starter.version}</version>
 		</dependency>
 
 		<!-- Lombok -->

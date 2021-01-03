@@ -9,7 +9,7 @@ public class TemplateDao {
     public TemplateEntity getData() {
         TemplateEntity entity = new TemplateEntity();
         entity.setId(1);
-        entity.setName("Entity name");
+        entity.setName("Greetings, from TemplateSpringBoot");
         return entity;
     }
 }
